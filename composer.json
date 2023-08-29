@@ -49,7 +49,7 @@
                 "EncoreDigitalGroup\\Laravel\\PlanningCenter\\ServiceProvider"
             ],
             "aliases": {
-                "CalendarEvent": "EncoreDigitalGroup\\Laravel\\PlanningCenter\\Facaces\\CalendarEvent"
+                "CalendarEvent": "EncoreDigitalGroup\\Laravel\\PlanningCenter\\SDK\\Calendar\\Event"
             }
         }
     },
