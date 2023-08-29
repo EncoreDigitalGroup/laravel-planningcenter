@@ -24,7 +24,7 @@ class ServiceProvider extends PackageServiceProvider
     {
         $this->publishes([
             __DIR__ . '/../config/planningcenter.php' => config_path('planningcenter.php'),
-        ]);
+        ], 'laravel-planningcenter-config');
     }
 
     //    public function register()
