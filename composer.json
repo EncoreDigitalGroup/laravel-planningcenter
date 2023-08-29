@@ -29,8 +29,7 @@
     },
     "autoload": {
         "psr-4": {
-            "EncoreDigitalGroup\\Laravel\\PlanningCenter\\": "src/",
-            "EncoreDigitalGroup\\Laravel\\PlanningCenter\\SDK\\": "src/Methods/"
+            "EncoreDigitalGroup\\Laravel\\PlanningCenter\\": "src/"
         }
     },
     "autoload-dev": {

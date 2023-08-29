@@ -1,6 +1,6 @@
 <?php
 
-namespace EncoreDigitalGroup\Laravel\PlanningCenter\Methods;
+namespace EncoreDigitalGroup\Laravel\PlanningCenter\SDK;
 
 use EncoreDigitalGroup\PlanningCenter\Client as PCOClient;
 
