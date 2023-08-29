@@ -1,16 +1,14 @@
 <?php
 
-namespace EncoreDigitalGroup\PlanningCenter\Facades;
+namespace EncoreDigitalGroup\Laravel\PlanningCenter\Facades;
 
+use EncoreDigitalGroup\Laravel\PlanningCenter\SDK\Calendar\Event;
 use Illuminate\Support\Facades\Facade;
 
-/**
- * @see \EncoreDigitalGroup\PlanningCenter\CalendarEvent
- */
 class CalendarEvent extends Facade
 {
     protected static function getFacadeAccessor()
     {
-        return \EncoreDigitalGroup\PlanningCenter\CalendarEvent::class;
+        return Event::class;
     }
 }

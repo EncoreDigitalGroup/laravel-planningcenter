@@ -1,5 +1,7 @@
 {
     "name": "encoredigitalgroup/laravel-planningcenter",
+    "type": "library",
+    "version": "0.1.0",
     "description": "Laravel Wrapper for EncoreDigitalGroup/PlanningCenter-PHP-SDK",
     "keywords": [
         "encoredigitalgroup",
@@ -19,6 +21,7 @@
         "php": "^8.1",
         "encoredigitalgroup/planningcenter-php-sdk": "^0.3.0",
         "illuminate/contracts": "^10.0",
+        "illuminate/support": "^10.20",
         "spatie/laravel-package-tools": "^1.14.0"
     },
     "require-dev": {
@@ -26,7 +29,8 @@
     },
     "autoload": {
         "psr-4": {
-            "EncoreDigitalGroup\\Laravel\\PlanningCenter\\": "src/"
+            "EncoreDigitalGroup\\Laravel\\PlanningCenter\\": "src/",
+            "EncoreDigitalGroup\\Laravel\\PlanningCenter\\SDK\\": "src/Methods/"
         }
     },
     "autoload-dev": {
@@ -43,10 +47,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "EncoreDigitalGroup\\Laravel\\PlanningCenter\\PlanningCenterServiceProvider"
+                "EncoreDigitalGroup\\Laravel\\PlanningCenter\\ServiceProvider"
             ],
             "aliases": {
-                "CalendarEvent": "EncoreDigitalGroup\\Laravel\\PlanningCenter\\Facades\\Calendar\\Event"
+                "CalendarEvent": "EncoreDigitalGroup\\Laravel\\PlanningCenter\\Facaces\\CalendarEvent"
             }
         }
     },

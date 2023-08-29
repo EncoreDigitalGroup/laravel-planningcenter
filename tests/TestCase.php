@@ -2,7 +2,7 @@
 
 namespace EncoreDigitalGroup\PlanningCenter\Tests;
 
-use EncoreDigitalGroup\PlanningCenter\PlanningCenterServiceProvider;
+use EncoreDigitalGroup\PlanningCenter\ServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
 
@@ -13,7 +13,7 @@ class TestCase extends Orchestra
         parent::setUp();
 
         Factory::guessFactoryNamesUsing(
-            fn (string $modelName) => 'EncoreDigitalGroup\\CalendarEvent\\Database\\Factories\\' . class_basename($modelName) . 'Factory'
+            fn (string $modelName) => 'EncoreDigitalGroup\\Event\\Database\\Factories\\' . class_basename($modelName) . 'Factory'
         );
     }
 
@@ -30,7 +30,7 @@ class TestCase extends Orchestra
     protected function getPackageProviders($app)
     {
         return [
-            PlanningCenterServiceProvider::class,
+            ServiceProvider::class,
         ];
     }
 }
