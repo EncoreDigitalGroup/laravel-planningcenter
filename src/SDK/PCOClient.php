@@ -2,13 +2,13 @@
 
 namespace EncoreDigitalGroup\Laravel\PlanningCenter\SDK;
 
-use EncoreDigitalGroup\PlanningCenter\Client as PCOClient;
+use EncoreDigitalGroup\PlanningCenter\Client as SDKClient;
 
-class Client
+class PCOClient
 {
     public function create()
     {
-        $PCOClient = new PCOClient;
+        $PCOClient = new SDKClient();
         $PCOClient->configure([
             'authorization' => config('planningcenter.authorization.type') . ' ' . config('planningcenter.authorization.key'),
             'calendar' => [
