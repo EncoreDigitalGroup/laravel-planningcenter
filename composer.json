@@ -47,10 +47,7 @@
         "laravel": {
             "providers": [
                 "EncoreDigitalGroup\\Laravel\\PlanningCenter\\ServiceProvider"
-            ],
-            "aliases": {
-                "CalendarEvent": "EncoreDigitalGroup\\Laravel\\PlanningCenter\\SDK\\Calendar\\Event"
-            }
+            ]
         }
     },
     "minimum-stability": "stable",
