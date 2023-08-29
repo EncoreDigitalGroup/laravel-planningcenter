@@ -8,7 +8,7 @@ class PCOClient
 {
     public function create()
     {
-        $PCOClient = new SDKClient();
+        $PCOClient = new SDKClient;
         $PCOClient->configure([
             'authorization' => config('planningcenter.authorization.type') . ' ' . config('planningcenter.authorization.key'),
             'calendar' => [
