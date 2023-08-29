@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace EncoreDigitalGroup\PlanningCenter\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class PlanningCenterCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'laravel-planningcenter';
 
     public $description = 'My command';
 

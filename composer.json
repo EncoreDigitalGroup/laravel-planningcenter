@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "encoredigitalgroup/laravel-planningcenter",
+    "description": "Laravel Wrapper for EncoreDigitalGroup/PlanningCenter-PHP-SDK",
     "keywords": [
-        ":vendor_name",
+        "encoredigitalgroup",
         "laravel",
-        ":package_slug"
+        "laravel-planningcenter"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/encoredigitalgroup/laravel-planningcenter",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Marc Beinder",
+            "email": "marc@marcbeinder.com",
             "role": "Developer"
         }
     ],
@@ -30,18 +30,17 @@
         "pestphp/pest-plugin-laravel": "^2.0",
         "phpstan/extension-installer": "^1.1",
         "phpstan/phpstan-deprecation-rules": "^1.0",
-        "phpstan/phpstan-phpunit": "^1.0",
-        "spatie/laravel-ray": "^1.26"
+        "phpstan/phpstan-phpunit": "^1.0"
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src/",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories/"
+            "EncoreDigitalGroup\\PlanningCenter\\": "src/",
+            "EncoreDigitalGroup\\PlanningCenter\\Database\\Factories\\": "database/factories/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests/"
+            "EncoreDigitalGroup\\PlanningCenter\\Tests\\": "tests/"
         }
     },
     "scripts": {
@@ -61,10 +60,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "EncoreDigitalGroup\\PlanningCenter\\PlanningCenterServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "PlanningCenter": "EncoreDigitalGroup\\PlanningCenter\\Facades\\PlanningCenter"
             }
         }
     },
