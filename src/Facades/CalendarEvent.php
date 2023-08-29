@@ -5,12 +5,12 @@ namespace EncoreDigitalGroup\PlanningCenter\Facades;
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \EncoreDigitalGroup\PlanningCenter\PlanningCenter
+ * @see \EncoreDigitalGroup\PlanningCenter\CalendarEvent
  */
-class PlanningCenter extends Facade
+class CalendarEvent extends Facade
 {
     protected static function getFacadeAccessor()
     {
-        return \EncoreDigitalGroup\PlanningCenter\PlanningCenter::class;
+        return \EncoreDigitalGroup\PlanningCenter\CalendarEvent::class;
     }
 }

@@ -1,6 +1,6 @@
 <?php
 
-// config for EncoreDigitalGroup/PlanningCenter
+// config for EncoreDigitalGroup/CalendarEvent
 return [
 
 ];

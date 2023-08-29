@@ -2,9 +2,9 @@
 
 namespace EncoreDigitalGroup\PlanningCenter;
 
+use EncoreDigitalGroup\PlanningCenter\Commands\PlanningCenterCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use EncoreDigitalGroup\PlanningCenter\Commands\PlanningCenterCommand;
 
 class PlanningCenterServiceProvider extends PackageServiceProvider
 {
@@ -17,9 +17,6 @@ class PlanningCenterServiceProvider extends PackageServiceProvider
          */
         $package
             ->name('laravel-planningcenter')
-            ->hasConfigFile()
-            ->hasViews()
-            ->hasMigration('create_laravel-planningcenter_table')
-            ->hasCommand(PlanningCenterCommand::class);
+            ->hasConfigFile();
     }
 }

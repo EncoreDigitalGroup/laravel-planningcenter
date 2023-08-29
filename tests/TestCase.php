@@ -2,9 +2,9 @@
 
 namespace EncoreDigitalGroup\PlanningCenter\Tests;
 
+use EncoreDigitalGroup\PlanningCenter\PlanningCenterServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use EncoreDigitalGroup\PlanningCenter\PlanningCenterServiceProvider;
 
 class TestCase extends Orchestra
 {
@@ -13,15 +13,8 @@ class TestCase extends Orchestra
         parent::setUp();
 
         Factory::guessFactoryNamesUsing(
-            fn (string $modelName) => 'EncoreDigitalGroup\\PlanningCenter\\Database\\Factories\\'.class_basename($modelName).'Factory'
+            fn (string $modelName) => 'EncoreDigitalGroup\\CalendarEvent\\Database\\Factories\\' . class_basename($modelName) . 'Factory'
         );
-    }
-
-    protected function getPackageProviders($app)
-    {
-        return [
-            PlanningCenterServiceProvider::class,
-        ];
     }
 
     public function getEnvironmentSetUp($app)
@@ -32,5 +25,12 @@ class TestCase extends Orchestra
         $migration = include __DIR__.'/../database/migrations/create_laravel-planningcenter_table.php.stub';
         $migration->up();
         */
+    }
+
+    protected function getPackageProviders($app)
+    {
+        return [
+            PlanningCenterServiceProvider::class,
+        ];
     }
 }
