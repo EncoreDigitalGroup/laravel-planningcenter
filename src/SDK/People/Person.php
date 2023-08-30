@@ -1,12 +1,12 @@
 <?php
 
-namespace EncoreDigitalGroup\Laravel\PlanningCenter\SDK\Person;
+namespace EncoreDigitalGroup\Laravel\PlanningCenter\SDK\People;
 
 class Person
 {
     public function all($PCOClient, $query = [])
     {
-        $Person = new \EncoreDigitalGroup\PlanningCenter\People\Person;
+        $Person = new ˘\EncoreDigitalGroup\PlanningCenter\People\Person;
 
         return $Person->all($PCOClient, $query);
     }
