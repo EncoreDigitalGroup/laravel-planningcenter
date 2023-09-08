@@ -1,7 +1,7 @@
 {
     "name": "encoredigitalgroup/laravel-planningcenter",
     "type": "library",
-    "version": "0.4.2",
+    "version": "0.5.0",
     "description": "Laravel Wrapper for EncoreDigitalGroup/PlanningCenter-PHP-SDK",
     "keywords": [
         "encoredigitalgroup",
@@ -9,7 +9,7 @@
         "laravel-planningcenter"
     ],
     "homepage": "https://github.com/encoredigitalgroup/laravel-planningcenter",
-    "license": "MIT",
+    "license": "AGPL-3.0-or-later",
     "authors": [
         {
             "name": "Marc Beinder",
