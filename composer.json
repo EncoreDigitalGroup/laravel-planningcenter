@@ -1,7 +1,7 @@
 {
     "name": "encoredigitalgroup/laravel-planningcenter",
     "type": "library",
-    "version": "0.6.0",
+    "version": "0.7.0",
     "description": "Laravel Wrapper for EncoreDigitalGroup/PlanningCenter-PHP-SDK",
     "keywords": [
         "encoredigitalgroup",
@@ -19,7 +19,7 @@
     ],
     "require": {
         "php": "^8.1",
-        "encoredigitalgroup/planningcenter-php-sdk": "^0.5.2 || ^0.6.0",
+        "encoredigitalgroup/planningcenter-php-sdk": "^0.6.0",
         "illuminate/contracts": "^10.0",
         "illuminate/support": "^10.0",
         "spatie/laravel-package-tools": "^1.14.0"
