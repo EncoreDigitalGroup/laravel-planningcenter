@@ -9,4 +9,5 @@ return [
     'calendar' => [
         'apiVersion' => env('PLANNING_CENTER_CALENDAR_API_VERSION', '2021-07-20'),
     ],
+    'timezone' => env('PLANNING_CENTER_TIMEZONE', 'UTC'),
 ];
