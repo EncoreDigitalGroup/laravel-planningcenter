@@ -18,7 +18,7 @@
     ],
     "require": {
         "php": "^8.1",
-        "encoredigitalgroup/planningcenter-php-sdk": "dev-main",
+        "encoredigitalgroup/planningcenter-php-sdk": "^0.7.0",
         "illuminate/contracts": "^10.0",
         "illuminate/support": "^10.0",
         "spatie/laravel-package-tools": "^1.14.0"
