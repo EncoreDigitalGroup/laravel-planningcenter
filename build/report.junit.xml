@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="/Users/marcbeinder/Documents/GitHub/laravel-PlanningCenter/phpunit.xml.dist" tests="2" assertions="4" errors="0" failures="0" skipped="0" time="0.084211">
+    <testsuite name="EncoreDigitalGroup Test Suite" tests="2" assertions="4" errors="0" failures="0" skipped="0" time="0.084211">
+      <testsuite name="P\Tests\ExampleTest" file="/Users/marcbeinder/Documents/GitHub/laravel-PlanningCenter/vendor/pestphp/pest/src/Factories/TestCaseFactory.php(196) : eval()'d code" tests="1" assertions="1" errors="0" failures="0" skipped="0" time="0.010907">
+        <testcase name="__pest_evaluable_it_can_test" file="/Users/marcbeinder/Documents/GitHub/laravel-PlanningCenter/vendor/pestphp/pest/src/Factories/TestCaseFactory.php(196) : eval()'d code" line="22" class="P\Tests\ExampleTest" classname="P.Tests.ExampleTest" assertions="1" time="0.010907"/>
+      </testsuite>
+      <testsuite name="P\Tests\ArchTest" file="/Users/marcbeinder/Documents/GitHub/laravel-PlanningCenter/vendor/pestphp/pest/src/Factories/TestCaseFactory.php(196) : eval()'d code" tests="1" assertions="3" errors="0" failures="0" skipped="0" time="0.073304">
+        <testcase name="__pest_evaluable_it_will_not_use_debugging_functions" file="/Users/marcbeinder/Documents/GitHub/laravel-PlanningCenter/vendor/pestphp/pest/src/Factories/TestCaseFactory.php(196) : eval()'d code" line="22" class="P\Tests\ArchTest" classname="P.Tests.ArchTest" assertions="3" time="0.073304"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>
