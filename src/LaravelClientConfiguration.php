@@ -42,7 +42,7 @@ class LaravelClientConfiguration extends ClientConfiguration
 
     public function getCalenderApiVersion(): string
     {
-        return $this->calendar['apiVersion'] ?? config('planningcenter.calendar.api_version');
+        return $this->calendar['apiVersion'] ?? config('planningcenter.calendar.apiVersion');
     }
 
     public function setGroupsApiVersion($version = null): void
@@ -52,7 +52,7 @@ class LaravelClientConfiguration extends ClientConfiguration
 
     public function getGroupsApiVersion(): string
     {
-        return $this->groups['apiVersion'] ?? config('planningcenter.groups.api_version');
+        return $this->groups['apiVersion'] ?? config('planningcenter.groups.apiVersion');
     }
 
     public function setPeopleApiVersion($version = null): void
@@ -62,7 +62,7 @@ class LaravelClientConfiguration extends ClientConfiguration
 
     public function getPeopleApiVersion(): string
     {
-        return $this->people['apiVersion'] ?? config('planningcenter.people.api_version');
+        return $this->people['apiVersion'] ?? config('planningcenter.people.apiVersion');
     }
 
     protected function getDefaultAuthorization(): string
