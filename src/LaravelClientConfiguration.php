@@ -69,6 +69,7 @@ class LaravelClientConfiguration extends ClientConfiguration
     {
         $authorizationType = config('planningcenter.authorization.type');
         $authorizationKey = config('planningcenter.authorization.key');
+
         return $authorizationType . ' ' . $authorizationKey;
     }
 }

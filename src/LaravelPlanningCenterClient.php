@@ -23,6 +23,7 @@ class LaravelPlanningCenterClient extends PlanningCenterClient
     public function setConfiguration(LaravelClientConfiguration|ClientConfiguration $config): LaravelClientConfiguration
     {
         $this->config = $config;
+
         return $this->config;
     }
 
