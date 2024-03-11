@@ -46,30 +46,12 @@ yarn-error.log
 .idea/laravel-idea-personal.xml
 .idea/commandlinetools/Laravel_*
 
-# Laravel Homestead
-Homestead.json
-Homestead.yaml
-
 ##################################
 ########      Testing     ########
 ##################################
 /.phpunit.cache
 .phpunit.result.cache
 build/phpstan
-##################################
-########  Legacy Laravel  ########
-##################################
-#Laravel 4 specific
-bootstrap/compiled.php
-app/storage/
-
-#Laravel 5 & Lumen specific
-public/storage
-public/hot
-
-#Laravel 5 & Lumen specific with changed public path
-public_html/storage
-public_html/hot
 
 ##################################
 ########     JetBrains    ########
@@ -86,6 +68,7 @@ public_html/hot
 .idea/**/usage.statistics.xml
 .idea/**/dictionaries
 .idea/**/shelf
+.idea/copilot/*
 
 #AWS User-specific
 .idea/**/aws.xml
