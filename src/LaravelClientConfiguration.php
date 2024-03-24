@@ -6,7 +6,7 @@ use EncoreDigitalGroup\PlanningCenter\ClientConfiguration;
 
 class LaravelClientConfiguration extends ClientConfiguration
 {
-    protected array $authorization;
+    protected string $authorization;
     protected array $calendar;
     protected array $groups;
     protected array $people;
