@@ -32,7 +32,7 @@ class LaravelClientConfiguration extends ClientConfiguration
 
     public function getAuthorization(): string
     {
-        return $this->authorization['authorization'] ?? $this->getDefaultAuthorization();
+        return $this->authorization ?? $this->getDefaultAuthorization();
     }
 
     public function setCalendarApiVersion($version = null): void
