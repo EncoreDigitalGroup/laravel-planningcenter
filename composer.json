@@ -18,7 +18,7 @@
     ],
     "require": {
         "php": "^8.1",
-        "encoredigitalgroup/planningcenter-php-sdk": "v1.0.0-rc17",
+        "encoredigitalgroup/planningcenter-php-sdk": "v1.0.0-rc18",
         "laravel/framework": "^10.0||^11.0",
         "spatie/laravel-package-tools": "^1.14.0"
     },
