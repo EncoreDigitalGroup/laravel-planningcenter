@@ -9,14 +9,10 @@ on:
 jobs:
   CreateRelease:
     name: Create Release
-    runs-on: ubuntu-latest
-    steps:
-      -   name: Create Release
-          id: create_release
-          uses: ncipollo/release-action@v1
-          env:
-            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          with:
-            generateReleaseNotes: true
-            draft: false
-            prerelease: false
+    uses: EncoreDigitalGroup/.github/.github/workflows/create-release.yml@main
+    secrets:
+      token: ${{ secrets.GITHUB_TOKEN }}
+    with:
+      generate_release_notes: true
+      is_draft: false
+      pre_release: false
