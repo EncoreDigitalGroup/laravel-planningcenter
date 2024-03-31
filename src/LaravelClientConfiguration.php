@@ -23,6 +23,9 @@ class LaravelClientConfiguration extends ClientConfiguration
         $this->people = [
             'apiVersion' => $this->getPeopleApiVersion(),
         ];
+
+        $this->setAuthorizationType(config('planningcenter.authorization.type'));
+        $this->setAuthorizationToken(config('planningcenter.authorization.key'));
     }
 
     public function setAuthorization($authorization = null): void
