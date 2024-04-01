@@ -68,7 +68,7 @@ class LaravelClientConfiguration extends ClientConfiguration
     protected function getDefaultAuthorization(): string
     {
         $authorizationType = config('planningcenter.authorization.type');
-        $authorizationKey = config('planningcenter.authorization.key');
+        $authorizationKey = base64_encode(config('planningcenter.authorization.key'));
 
         return $authorizationType . ' ' . $authorizationKey;
     }
