@@ -38,5 +38,4 @@ trait PlanningCenterCache
 
         return $this;
     }
-
 }
