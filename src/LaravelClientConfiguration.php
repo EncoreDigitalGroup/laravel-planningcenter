@@ -30,7 +30,7 @@ class LaravelClientConfiguration extends ClientConfiguration
         ];
     }
 
-    public function setAuthorization($authorization = null): void
+    public function setAuthorization(?string $authorization = null): void
     {
         $this->authorization = $authorization ?? $this->getAuthorization();
     }
@@ -40,7 +40,7 @@ class LaravelClientConfiguration extends ClientConfiguration
         return $this->authorization ?? $this->getDefaultAuthorization();
     }
 
-    public function setCalendarApiVersion($version = null): void
+    public function setCalendarApiVersion(?string $version = null): void
     {
         $this->calendar['apiVersion'] = $version ?? $this->getCalenderApiVersion();
     }
@@ -50,7 +50,7 @@ class LaravelClientConfiguration extends ClientConfiguration
         return $this->calendar['apiVersion'] ?? config('planningcenter.calendar.apiVersion');
     }
 
-    public function setGroupsApiVersion($version = null): void
+    public function setGroupsApiVersion(?string $version = null): void
     {
         $this->groups['apiVersion'] = $version ?? $this->getGroupsApiVersion();
     }
@@ -60,7 +60,7 @@ class LaravelClientConfiguration extends ClientConfiguration
         return $this->groups['apiVersion'] ?? config('planningcenter.groups.apiVersion');
     }
 
-    public function setPeopleApiVersion($version = null): void
+    public function setPeopleApiVersion(?string $version = null): void
     {
         $this->people['apiVersion'] = $version ?? $this->getPeopleApiVersion();
     }
