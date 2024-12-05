@@ -1,8 +1,6 @@
 > ## ⚠️ Deprecated
 >
-> This repository has been deprecated in favor of the pending
-> release [encoredigitalgroup/planningcenter-php-sdk](https://github.com/EncoreDigitalGroup/PlanningCenter-PHP-SDK) v2.0.0. Once v2.0.0 has been tagged, this repository
-> will be archived on GitHub and marked as abandoned on Packagist.
+> This repository has been deprecated in favor of [encoredigitalgroup/planningcenter-php-sdk](https://github.com/EncoreDigitalGroup/PlanningCenter-PHP-SDK) v2.0.0.
 >
 > To be clear, we are not abandoning Laravel support for the Planning Center API. Starting in v2.0.0, the core package will have native support for Laravel,
 > so this package will no longer be required.
