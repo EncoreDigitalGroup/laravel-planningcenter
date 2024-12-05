@@ -2,6 +2,7 @@
     "name": "encoredigitalgroup/laravel-planningcenter",
     "type": "library",
     "description": "Laravel Wrapper for EncoreDigitalGroup/PlanningCenter-PHP-SDK",
+    "abandoned": "encoredigitalgroup/planningcenter-php-sdk",
     "keywords": [
         "encoredigitalgroup",
         "laravel",
